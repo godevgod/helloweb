@@ -1,3 +1,3 @@
-module helloweb
+module helloworld
 
 go 1.22.0
