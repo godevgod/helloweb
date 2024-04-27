@@ -4,7 +4,8 @@ services:
     build: .
     ports:
       - "8080:8080"
-    volumes:
-      - .:/app
+    # คอมเม้นท์หรือลบบรรทัดที่ใช้ volumes นี้ออกถ้าไม่จำเป็น
+    # volumes:
+    #   - .:/app
     environment:
       - GO111MODULE=off
