@@ -1,0 +1,5 @@
+# Ignore compiled Go binaries
+helloworld
+
+# Ignore the local vendor directory
+vendor/
