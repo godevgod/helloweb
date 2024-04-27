@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . .
 
 # คอมไพล์ Go application
-RUN go build -o helloweb
+RUN go build -o helloworld
 
 # รัน application
 CMD ["./helloworld"]
